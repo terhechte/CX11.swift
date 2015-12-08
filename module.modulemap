@@ -1,0 +1,10 @@
+module CX11 [system] {
+  explicit module Xlib {
+	header "/usr/include/X11/Xlib.h"
+  }
+  explicit module X {
+	header "/usr/include/X11/X.h"
+  }
+  link "X11"
+}
+
